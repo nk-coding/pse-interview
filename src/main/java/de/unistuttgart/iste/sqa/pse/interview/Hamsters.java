@@ -55,9 +55,9 @@ class ExampleHamsterGame extends SimpleHamsterGame {
         final Hamster h2 = hungryPaule;
         final Hamster h3 = Math.random() < 0.5 ? hungryPaule : chattyPaule;
         
-        h1.move();
-        h2.move();
-        h3.move();
+        h1.pickGrain();
+        h2.pickGrain();
+        h3.pickGrain();
     }
 
 }
